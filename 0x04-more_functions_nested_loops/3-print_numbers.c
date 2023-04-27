@@ -1,19 +1,18 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * print_numbers - print  0 - 9
- *
- * Return: void
- */
+*print_numbers - print 0123456789
+* owned by Bwave ICT
+*Return: void
+*/
 
 void print_numbers(void)
 {
-	char a = 0;
+	char c;
 
-	while (a <= 9)
+	for (c = '0'; c <= '9'; c++)
 	{
-		_putchar(a + '0');
-		a++;
+	_putchar(c);
 	}
 	_putchar('\n');
 }
