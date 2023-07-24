@@ -2,10 +2,9 @@
 
 /**
  * _strlen - returns the length of a string
- *
  * @s: string parameter input
- *
- * return: 0
+ * Description: this will return the length of a string
+ * return: 0 is success
 */
 
 int _strlen(char *s)
